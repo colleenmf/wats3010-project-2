@@ -314,7 +314,7 @@ nav .active a {
 
 }
 ```
-8. Set up media query to manage navigation on smaller devices.
+9. Set up media query to manage navigation on smaller devices.
 ```
 @media only screen and (max-width: 599px) {
 
@@ -349,51 +349,17 @@ nav .active a {
 
 }
 ```
-9. Set up 3 column layout for masonry.
+10. Set up 3 column layout for masonry.
 ```
-.golden-mason img {
-  width: 100%;
-}
-
-.golden-mason article {
-  padding: 20px;
-  border: 1px solid var(--mason-border-color);
-  border-radius: 5px;
-  background-color: var(masonry-bg-color);
-}
-
-.golden-mason a:link,
-.golden-mason a:visited {
-  color: var(--masonry-link);
-}
-
-.golden-mason h1 {
-  margin-top: 0;
-  margin-left: 0.75rem;
-}
-
-.golden-mason {
-  column-count: 3;
-  columns: 250px;
-  column-gap: 10px;
-}
-
-.golden-mason article {
-  break-inside: avoid-column;
-  margin-bottom: 1rem;
-}
-
-.golden-mason p {
-  font-size: .9rem;
-}
+.golden
 ```
-10. Set up styling for the aside text.
+11. Set up styling for the aside text.
 ```
 aside p {
   font-size: .9rem;
 }
 ```
-11. Set up flexbox styling for the footer.
+12. Set up flexbox styling for the footer.
 ```
 ul.copyright {
   padding: 0;
@@ -406,7 +372,7 @@ ul.copyright {
   font-size: .9rem;
 }
 ```
-12. Add styling for icon bar social links.
+13. Add styling for icon bar social links.
 ```
 .icon-bar {
   position: fixed;
@@ -449,7 +415,7 @@ icon-bar ul {
   color: var(--icon-color);
 }
 ```
-13. Style the credits.
+14. Style the credits.
 ```
 .credits ul {
   list-style-type: none;
@@ -468,7 +434,7 @@ icon-bar ul {
   cursor: pointer;
 }
 ```
-14. Style the aside images on fibonacci.
+15. Style the aside images on fibonacci.
 ```
 .fib-aside {
   display: flex;
@@ -481,7 +447,7 @@ icon-bar ul {
   height: auto;
 }
 ```
-15. Style the table with Fibonacci calculations.
+16. Style the table with Fibonacci calculations.
 ```
 .calc-table table {
   font-family: arial, sans-serif;
@@ -507,7 +473,7 @@ icon-bar ul {
   font-style: italic; 
 }
 ```
-16. Style the math presentation on fibonacci.html.
+17. Style the math presentation on fibonacci.html.
 ```
 .math {
   margin: 20px auto;
@@ -517,7 +483,7 @@ icon-bar ul {
   color: var(--math-color);
 }
 ```
-17. Add styling for responsive iframes.
+18. Add styling for responsive iframes.
 ```
 .resp-container {
   position: relative;
@@ -534,7 +500,7 @@ icon-bar ul {
   border: 0;
 }
 ```
-18. Provide containers for media iframes.
+19. Provide containers for media iframes.
 ```
 .frame-container {
   margin: 0 auto;
@@ -561,8 +527,7 @@ icon-bar ul {
     margin-top: 20px;
   }
 }
-```
-19. Provide container styling for about.html
+``20. Provide container styling for about.html
 ```
 .learning-objectives {
   margin: 20px;
