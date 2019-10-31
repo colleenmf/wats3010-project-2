@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
   }
-  /*variables*/
+  /*variables step 2*/
   :root {
     --main-bg-color: white;
     --main-text-color: #353535;
@@ -32,8 +32,8 @@
     --math-bg-color: black;
   }
 
-  /* font applications*/
-  h1,
+  /* font applications step 3*/
+h1,
 h2,
 h3,
 h4,
@@ -51,18 +51,18 @@ figcaption {
 p {
   font-family: var(--font-serif-text);
 }
-/*brand*/
+/*brand step 4*/
 .brand a {
     color: var(--brand-color);
     text-decoration: none;
   }
-  /*layout*/
+  /*layout step 5*/
   .container {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
   }
-  /*container items*/
+  /*container items step 6*/
   .single-col-container>*,
 .container>* {
   color: var(--main-text-color);
@@ -120,7 +120,7 @@ nav li {
 nav .active a {
   color: var(--nav-active);
 }
-/*set up media inquiries*/
+/*set up media inquiries for lg screens step 8*/
 @media only screen and (min-width: 600px) {
 
     /* grid */
@@ -162,7 +162,7 @@ nav .active a {
     }
   
   }
-  /*hamburger nav smaller screens*/
+  /*hamburger nav smaller screens step 9*/
   @media only screen and (max-width: 599px) {
 
     #nav {
@@ -190,6 +190,7 @@ nav .active a {
     .open {
       text-align: left;
       color: var(--main-text-color);
+      background-color: var(--main-bg-color);
       font-size: 2em;
       padding-left: 5px;
     }
@@ -219,7 +220,7 @@ nav .active a {
   
   .golden-mason {
     column-count: 3;
-    columns: 250px;
+    columns: 300px;
     column-gap: 10px;
   }
   
@@ -231,11 +232,11 @@ nav .active a {
   .golden-mason p {
     font-size: .9rem;
   }
-  /*aside text*/
+  /*aside text step 11*/
   aside p {
     font-size: .9rem;
   }
-  /*styling footer*/
+  /*styling footer step 12*/
   ul.copyright {
     padding: 0;
     display: flex;
@@ -245,7 +246,7 @@ nav .active a {
   .copyright li {
     font-size: .9rem;
   }
-  /*styling social links*/
+  /*styling social links step 13*/
   .icon-bar {
     position: fixed;
     top: 1%;
@@ -286,7 +287,7 @@ nav .active a {
     background-color: var(--github-bg);
     color: var(--icon-color);
   }
-  /* style credits*/
+  /* style credits step 14*/
   .credits ul {
     list-style-type: none;
     padding: 0;
@@ -303,7 +304,7 @@ nav .active a {
     color: var(--credit-hover-color);
     cursor: pointer;
   }
-  /*style aside images*/
+  /*style aside images fib step 15*/
   .fib-aside {
     display: flex;
     flex-direction: column;
@@ -314,7 +315,7 @@ nav .active a {
     width: 180px;
     height: auto;
   }
-  /*style fib. calcs*/
+  /*style fib. calcs step 16*/
   .calc-table table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -338,7 +339,7 @@ nav .active a {
   text-alifinishgn: left;
   font-style: italic; 
 }
-/*style math pres. on fib.*/
+/*style math pres. on fib. 17*/
 .math {
     margin: 20px auto;
     padding: 10px 30px;
@@ -346,7 +347,7 @@ nav .active a {
     background-color: var(--math-bg-color);
     color: var(--math-color);
   }
-  /*styling responsive frames*/
+  /*styling responsive frames 18*/
   .resp-container {
     position: relative;
     overflow: hidden;
@@ -361,7 +362,7 @@ nav .active a {
     height: 100%;
     border: 0;
   }
-  /*conatiners for media iframes*/
+  /*containers for media iframes 19*/
   .frame-container {
     margin: 0 auto;
     width: 80%;
@@ -387,7 +388,7 @@ nav .active a {
       margin-top: 20px;
     }
   }
-  /* container styling for about.html*/
+  /* container styling for about.html 20*/
   .learning-objectives {
     margin: 20px;
   }

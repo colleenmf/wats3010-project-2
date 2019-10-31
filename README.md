@@ -343,6 +343,7 @@ nav .active a {
   .open {
     text-align: left;
     color: var(--main-text-color);
+    background-color: var(--main-bg-color):
     font-size: 2em;
     padding-left: 5px;
   }
@@ -351,7 +352,41 @@ nav .active a {
 ```
 10. Set up 3 column layout for masonry.
 ```
-.golden
+.golden-mason img {
+  width: 100%;
+}
+
+.golden-mason article {
+  padding: 20px;
+  border: 1px solid var(--mason-border-color);
+  border-radius: 5px;
+  background-color: var(masonry-bg-color);
+}
+
+.golden-mason a:link,
+.golden-mason a:visited {
+  color: var(--masonry-link);
+}
+
+.golden-mason h1 {
+  margin-top: 0;
+  margin-left: 0.75rem;
+}
+
+.golden-mason {
+  column-count: 3;
+  columns: 250px;
+  column-gap: 10px;
+}
+
+.golden-mason article {
+  break-inside: avoid-column;
+  margin-bottom: 1rem;
+}
+
+.golden-mason p {
+  font-size: .9rem;
+}
 ```
 11. Set up styling for the aside text.
 ```
