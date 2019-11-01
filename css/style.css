@@ -225,9 +225,11 @@ nav .active a {
   }
   
   .golden-mason article {
-    break-inside: avoid-column;
+  break-inside: avoid-column;
     margin-bottom: 1rem;
   }
+  
+    
   
   .golden-mason p {
     font-size: .9rem;
@@ -336,7 +338,7 @@ nav .active a {
 }
 .calc-table caption {
   caption-side:top;
-  text-alifinishgn: left;
+  text-align: left;
   font-style: italic; 
 }
 /*style math pres. on fib. 17*/
